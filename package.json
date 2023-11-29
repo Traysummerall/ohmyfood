@@ -1,0 +1,15 @@
+{
+	"name": "projet-3---ohmyfood-en",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "sass homepage.scss dist/styles/homepage.css",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Tray Summerall",
+	"license": "MIT",
+	"devDependencies": {
+		"sass": "^1.69.5"
+	}
+}

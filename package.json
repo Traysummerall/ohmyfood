@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"build": "sass homepage.scss dist/styles/homepage.css",
+		"build": "sass styles:dist/styles",
+		"build:watch": "npm run build -- --watch",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "Tray Summerall",

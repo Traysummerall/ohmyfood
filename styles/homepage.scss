@@ -1,35 +1,5 @@
-@font-face {
-	font-family: 'shrink-hand';
-	src: url('Shrikhand/Shrikhand-Regular.ttf');
-}
-@font-face {
-	font-family: 'roboto-medium';
-	src: url('Roboto/Roboto-Medium.ttf');
-}
-@font-face {
-	font-family: 'roboto-black';
-	src: url('Roboto/Roboto-Black.ttf');
-}
-@font-face {
-	font-family: 'roboto-bold';
-	src: url('Roboto/Roboto-Bold.ttf');
-}
-@font-face {
-	font-family: 'roboto-light';
+@import './fonts.scss';
 
-	src: url('Roboto/Roboto-Light.ttf');
-}
-
-@font-face {
-	font-family: 'roboto-regular';
-
-	src: url('Roboto/Roboto-Regular.ttf');
-}
-@font-face {
-	font-family: 'roboto-thin';
-
-	src: url('Roboto/Roboto-Thin.ttf');
-}
 $primary-color: #9356dc;
 $secondary-color: #ff79da;
 $tertiary-color: #99e2d0;
@@ -41,6 +11,7 @@ $octal: rgb(224, 226, 226);
 @mixin border-radius($radius) {
 	border-radius: $radius;
 }
+
 .text,
 .text2,
 .text3 {
